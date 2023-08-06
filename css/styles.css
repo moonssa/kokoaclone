@@ -9,6 +9,7 @@
 @import "./components/user-components.css";
 @import "./components/badge.css";
 @import "./components/icon-row.css";
+@import "./components/no-mobile.css";
 
 @import "./screens/login.css";
 @import "./screens/friends.css";
@@ -19,7 +20,7 @@
 
 body{
     font-family:'Open Sans', sans-serif;
-    height: 1000vh;
+    height: 100vh;
 }
 
 .main-screen {
