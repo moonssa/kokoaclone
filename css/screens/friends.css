@@ -1,0 +1,37 @@
+#friends-display-link {
+    text-align:center;
+    display: block;   
+
+    /* 위와 같이 블럭을 해줘야 text-align이 작동한다. */
+    background-color: #fafafa;
+    padding: 15px 0px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: -30px;
+}
+
+#friends-display-link i {
+    opacity: 0.3;
+    font-size: 16px;
+}
+
+.friends-screen {
+	padding: 0px var(--horizontal-space);
+}
+
+
+.friends-screen__birthday{
+	margin-top: 25px;
+	border-top: var(--main-border);
+	padding-top:15px; 
+	font-size: 12px;
+	opacity: 0.7;
+
+}
+
+.friends-screen__birthday-header {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+
+}
